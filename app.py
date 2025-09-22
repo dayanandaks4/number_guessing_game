@@ -14,7 +14,7 @@ def index():
             if int(guess) == secret_number:
                 message = "🎉 Correct! You guessed the number!"
             else:
-                message = "❌ Nope! Try again."
+                message = "❌ Nope ! Try again."
     return render_template('index.html', message=message)
 
 if __name__ == '__main__':
