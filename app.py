@@ -12,7 +12,7 @@ def index():
         guess = request.form.get('guess')
         if guess:
             if int(guess) == secret_number:
-                message = "🎉Correct! You guessed the number!"
+                message = "🎉 Correct! You guessed the number!"
             else:
                 message = "❌  
 Nope ! Try again."
